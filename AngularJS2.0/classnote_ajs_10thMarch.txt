@@ -1,0 +1,39 @@
+
+Day1 - 10th March
+------------------
+Trainer - Satish Mahajan
+
+To know node verseion -> node -verseion
+To know the ng version -> ng -version
+
+AngularJS 2.0
+-------------
+1. Component Based. Not MVC based.
+2. Component require a placehlder
+    a. Component consists of view part. Ex: Login Component 
+    b. 
+
+
+Path - C:\Users\sumbarma\AppData\Roaming
+
+To install Angular JS2 using npm
+1. Go to Command Prompt
+2. npm install -g @angular/cli
+
+* Command to ceate the basic structure of the application
+ng new ApplicationName
+
+Github Reference
+https://github.com/angular/quickstart
+https://github.com/angular/angular-cli
+
+Important Items inside package structure
+----------------
+package.json
+angular-cli.json
+tsconfig.json
+
+To start tsc server -> npm start
+http://localhost:4200
+
+Content Management Tool

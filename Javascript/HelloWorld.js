@@ -1,4 +1,2 @@
-function callFormWork(){
-    console.log("Hello World")
-}
-callFormWork();
+var message, string = "Hello To All Welcome to Type Script";
+console.log(message);

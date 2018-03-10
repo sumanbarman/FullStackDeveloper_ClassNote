@@ -72,19 +72,3 @@ Differet way to declare functions
 * Employee.call (this, args)
 * You can inherited the attribute not the value
 
-Type Script
--------------
-npm - Node Pacakge Management
-npm tool to download bootstrap, typescript, angular.js etc
-It will available after Node.js installation
-
-Path - C:\Users\sumbarma\AppData\Roaming
-
-To install Type-Script using npm
-1. Go to Command Prompt
-2. npm install -g typescript 
-
-To install Angular JS2 using npm
-1. Go to Command Prompt
-2. npm install -g 
-

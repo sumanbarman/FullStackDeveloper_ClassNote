@@ -1,0 +1,30 @@
+
+Day1 - 10th March
+------------------
+Trainer - Satish Mahajan
+
+Type Script
+-------------
+It allow OOPS on Javascript
+Generic Type Collection API. 
+Can perform Dependency Injection
+Nothing to deal with bworser.
+
+npm - Node Pacakge Manager
+npm tool to download bootstrap, typescript, angular.js etc
+It will available after Node.js installation
+
+Path - C:\Users\sumbarma\AppData\Roaming
+
+To install Type-Script using npm
+1. Go to Command Prompt
+2. npm install -g typescript [-g means the global folder]
+
+To install Angular JS2 using npm
+1. Go to Command Prompt
+2. npm install -g @angular/eli
+
+
+* File extension - .ts 
+* run below command to convert into .js -> tsc filename.ts
+* run converted .js file -> node filename.js
