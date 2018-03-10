@@ -53,3 +53,21 @@ Differet way to declare functions
 2. Function as Value - Store the function in variable
 3. Fat Arrow (Lamda in Java) with multiple line
 4. Fat Arrow (Lamda in Java) with single line
+
+
+4th Example - Closures.js
+----------------------------
+1. Closure Function 
+	new keyword with Function -> Constructor Function
+
+5th Example - Functional.js
+----------------------------
+1. Prototype - 
+	* Hidden attribute
+	* To set new attribute from outside.
+	* Also can add function as value. 
+
+6TH Example - Inheritance.js
+--------------------------
+* Employee.call (this, args)
+* You can inherited the attribute not the value
