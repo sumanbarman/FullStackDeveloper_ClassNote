@@ -1,7 +1,7 @@
 
 Day1 - 10th March
 ------------------
-Trainer - Satish
+Trainer - Satish Mahajan
 
 
 1. Java Script
@@ -35,3 +35,11 @@ Node
 2. Right clieck on .js file.-> open in terminal
 3. To execute it - run below command -
 	node HelloWorld.js
+
+2nd Example
+--------------
+Loop
+* For In loop 
+for(let a in numlist){
+    console.log(numlist[a]);
+}
