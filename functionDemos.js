@@ -4,7 +4,6 @@ function calInterest00(baseAmt, interestRate){
 }
 console.log(calInterest00(15000,10))
 
-
 //Function as value
 var calInterest01= function(baseAmt, interestRate){
     return (baseAmt*interestRate)/100;
