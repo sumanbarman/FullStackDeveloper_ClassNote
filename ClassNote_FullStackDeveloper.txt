@@ -36,10 +36,20 @@ Node
 3. To execute it - run below command -
 	node HelloWorld.js
 
-2nd Example
+2nd Example (arrayExample.js)
 --------------
 Loop
 * For In loop 
 for(let a in numlist){
     console.log(numlist[a]);
 }
+
+3rd Example (functionDemos.js)
+------------
+Functions.. 
+Function as a Value - Like lamda
+Differet way to declare functions
+1. Traditional Approach
+2. Function as Value - Store the function in variable
+3. Fat Arrow (Lamda in Java) with multiple line
+4. Fat Arrow (Lamda in Java) with single line
