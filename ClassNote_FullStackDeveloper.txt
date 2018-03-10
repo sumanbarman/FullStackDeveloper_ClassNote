@@ -1,0 +1,20 @@
+Day1 - 10th March
+------------------
+1. Java Script
+2. Type Script -- Abstraction on Java Scpirt. Based on OOPs.
+3. Angular JS2.0
+
+WEB SOCKET -> java script, XML, HTML
+SIngle Page Application 
+Hybrid Application -> Server Side and Client Side connected with REST 
+
+Presentation Layer -> JS,Html, Angular
+
+Angular 2.0 - Component Driven
+
+
+Tool
+------
+1. Visual Studio Code. Free.	
+2. Node.js
+3. MDM Tool
