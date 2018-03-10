@@ -1,5 +1,9 @@
+
 Day1 - 10th March
 ------------------
+Trainer - Satish
+
+
 1. Java Script
 2. Type Script -- Abstraction on Java Scpirt. Based on OOPs.
 3. Angular JS2.0
@@ -12,9 +16,22 @@ Presentation Layer -> JS,Html, Angular
 
 Angular 2.0 - Component Driven
 
+XMasCsript.6.0
+
+
+
 
 Tool
 ------
 1. Visual Studio Code. Free.	
 2. Node.js
 3. MDM Tool
+
+Node
+--------
+0. Use Visual Studio Code.
+0. Open Folder -> Selcet one Folder where to add js files.
+1. Set Classpath NODE_HOME
+2. Right clieck on .js file.-> open in terminal
+3. To execute it - run below command -
+	node HelloWorld.js
