@@ -87,12 +87,17 @@ Ref: https://angular.io/docs
     3. providers - Ex: Services, Router, Files etc.
     4. bootstrap
 
+2 Directives
 *ngFor
 *ngIf
 
 #PIPE
 # How to create Custome PIPE
 ng g pipe convert-to-spaces.pipe.ts
+
+#EvenEmitter Object - Push value to Parent Component
+# @Input
+# @Output
 
 
 #Run Steps:
