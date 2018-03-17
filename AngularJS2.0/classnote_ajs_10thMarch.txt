@@ -59,7 +59,9 @@ Ref: https://angular.io/docs
 
     #4 Ways of binding
         1. Interpolation binding. Ex: {{}}. One way binding - class to html.
-        2. 
+        2. property binding. Ex: Set the value of Attribute of a tag dynamically <img [src]='product.productName'>
+        3. Event binding. Ex: Binding the backend function with any event like Click, Mouse Over etc. <button (click) = 'toggeImage()'>
+        4. 2 way binding. Ex:  Class to html and vice-versa. <input type='text' [(ngModel)] = 'listFilter' />
 
 
 # How to create a component
@@ -85,8 +87,37 @@ Ref: https://angular.io/docs
     3. providers - Ex: Services, Router, Files etc.
     4. bootstrap
 
+*ngFor
+*ngIf
+
+#PIPE
+# How to create Custome PIPE
+ng g pipe convert-to-spaces.pipe.ts
+
 
 #Run Steps:
 1. select package.json 
 2. Right Click on that json and Open in Terminal/Command Prompt
 3. run command -> npm start.
+
+"imageUrl": "http://openclipart.org/image/300px/svg_to_png/26215/Anonymous_Leaf_Rake.png",       
+
+
+
+YML - Solutions
+------------------
+https://stackoverflow.com/questions/21271468/spring-propertysource-using-yaml
+@ConfigurationProperties(path="classpath:/appprops.yml", name="db")
+public class DbProperties {
+    private String url;
+    private String username;
+    private String password;
+...
+}
+
+@EnableConfigurationProperties(DbProperties.class)
+public class PropertiesUsingService {
+
+    @Autowired private DbProperties dbProperties;
+
+}
