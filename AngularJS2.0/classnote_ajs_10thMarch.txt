@@ -29,11 +29,64 @@ https://github.com/angular/angular-cli
 
 Important Items inside package structure
 ----------------
-package.json
-angular-cli.json
-tsconfig.json
+package.json            - For Dependencies Configuration
+angular-cli.json        - For Project Configuration - Application level Configuration
+tsconfig.json           - For TypeScript
+tslint.json             - For Testing
+karma.conf.json         - For Testing
 
 To start tsc server -> npm start
 http://localhost:4200
 
 Content Management Tool
+
+Day2 - 17th March
+------------------
+Ref: https://angular.io/docs
+
+# Component consits of 
+    1. Template - (html+css)
+    2. Class - (properties + methods)
+    3. Metadata (Decorator is quivalent to Annotation) - bridge between Template and Class.
+
+# Component has to be inject using Placeholder.
+    ****** SELECTOR / Custom Tag ********
+        1. Need to inject inside index.html by Selector (custom tag). 
+        2. Selector needs to apply in the new Component.
+
+# How to angular will undestand to about new component.
+    Need to register with Bootstrap in App Component (Default Component of Angular)
+
+    #4 Ways of binding
+        1. Interpolation binding. Ex: {{}}. One way binding - class to html.
+        2. 
+
+
+# How to create a component
+    -> ng g c products/product-detail.component  -- Angular Engine will create product folder in app folder
+            app 
+                product
+                    product
+                        product-details.component.ts
+                        product-details.component.html
+                        product-details.component.css
+    -> ng g c products/product-detail.component --flat  -- Angular Engine will create belwo folder structure
+            app 
+                product
+                        product-details.component.ts
+                        product-details.component.html
+                        product-details.component.css
+    g - global
+    c - component
+
+#NgModule
+    1. declaration
+    2. imports
+    3. providers - Ex: Services, Router, Files etc.
+    4. bootstrap
+
+
+#Run Steps:
+1. select package.json 
+2. Right Click on that json and Open in Terminal/Command Prompt
+3. run command -> npm start

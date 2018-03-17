@@ -5,3 +5,10 @@ Trainer - Satish Mahajan
 
 HomeTask - 
 https://github.com/satishmahajan11/JunitMokitoRepo
+
+Day2 - 17th March
+-------------------
+Download Link of the demo application
+https://fts.capgemini.com/private/94032134578272/APMSample.7z
+
+I keep the application inside AngularJS2.0 folder
