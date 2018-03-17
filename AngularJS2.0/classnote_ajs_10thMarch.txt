@@ -89,4 +89,4 @@ Ref: https://angular.io/docs
 #Run Steps:
 1. select package.json 
 2. Right Click on that json and Open in Terminal/Command Prompt
-3. run command -> npm start
+3. run command -> npm start.
