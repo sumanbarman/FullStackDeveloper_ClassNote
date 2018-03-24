@@ -61,7 +61,11 @@ Ref: https://angular.io/docs
         1. Interpolation binding. Ex: {{}}. One way binding - class to html.
         2. property binding. Ex: Set the value of Attribute of a tag dynamically <img [src]='product.productName'>
         3. Event binding. Ex: Binding the backend function with any event like Click, Mouse Over etc. <button (click) = 'toggeImage()'>
-        4. 2 way binding. Ex:  Class to html and vice-versa. <input type='text' [(ngModel)] = 'listFilter' />
+        4. 2 way binding. Ex:  Class to html and vice-versa. 
+                                <input type='text' [(ngModel)] = 'listFilter' />
+                                prerequisite:
+                                1 .ngModel
+                                2. Get Set Propert
 
 
 # How to create a component
@@ -108,6 +112,73 @@ ng g pipe convert-to-spaces.pipe.ts
 "imageUrl": "http://openclipart.org/image/300px/svg_to_png/26215/Anonymous_Leaf_Rake.png",       
 
 
+Day3 - 24th March
+------------------
+
+# EvenEmitter Object - Push value to Parent Component
+# @Input - pass from Outer Component to Input Component
+# @Output - return the value to Outer Component from Input Component
+
+
+# Component Life Cycle
+    1. create
+    2. Render
+    3. Create amd render children
+    4. Process Changes Destroy
+
+# Service
+    @Injectable() to indejec the dependecy like @Autowired
+    Observale object  is like ResponseEntity.. hold Data + Error details.
+    Subscribe() it accept two callback function as arguments
+        Observable.subscribe( valuefunction, errorfunction);
+        Observable.subscribe( products => 
+                            this.products = products
+                            this.filterProducts = this.products;
+                            , errorfunction);
+
+# Clouser Function vs CallBack Function    
+
+#Hookup functions
+    OnInit
+    OnChange
+    OnDestroy
+
+#Create a new service
+    ng g service ProductService   
+
+#Routing API
+    roulter link to link between to templates
+    Gaurd service - filter between 2 templates.
+    <router-outlet></router-outlet> - to active another component which link with router
+
+
+structure
+
+indexPage.html  
+    
+    welcomeComponent
+
+    AppComponent
+
+            AppModule
+
+            ProductModule - We can put everything related to ProductModule by using @ngModule
+                Product
+                ProducListComponent
+                ProductDetailComponent
+                ProductGuardService
+                ProductService
+
+            Shared
+                star Compopnent
+                CustomePIPE
+
+                Start Module - will contain everthing related to Star Components  
+
+            Start Module will be declare in Product Module
+            Poduct Module will be declare AppModule
+
+@CrossOrigin
 
 YML - Solutions
 ------------------
